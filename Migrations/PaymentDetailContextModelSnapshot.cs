@@ -32,7 +32,7 @@ namespace PaymentAPI.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("ExpirationDate")
-                        .HasColumnType("nvarchar(4)");
+                        .HasColumnType("nvarchar(5)");
 
                     b.Property<string>("SecurityCode")
                         .HasColumnType("nvarchar(3)");
